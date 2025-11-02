@@ -12,13 +12,13 @@ btnToggleResponsive.addEventListener('click', () =>  {
         iconBars.classList.remove('active');
         iconclose.classList.add('active');
         menuResponsive.classList.add('show');
-        menuResponsive.style.top = `${header.clientHeight}px`;
+        menuResponsive.style.top = `${header.clientHeight}px`
     }
     // cerrar el menu responsive
     else {
         iconBars.classList.add('active');
         iconclose.classList.remove('active');
-        menuResponsive.classList.remove('active');
+        menuResponsive.classList.remove('show');
         
     }
 } );
